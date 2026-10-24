@@ -163,7 +163,7 @@
           figure
             img(src="@/assets/curso/temas/t1/img16.svg", alt="", style="width: 280px").m-auto
         .col-lg-9(data-aos="fade-left")
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul2")
             .row(titulo="Prórroga automática")
               .col-12
                 p.mb-0 Si ninguna de las partes manifiesta su intención de terminar el contrato con una antelación no inferior a treinta (30) días antes del vencimiento, el contrato se renueva por un período igual al pactado o al de la prórroga anterior.

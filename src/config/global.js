@@ -97,24 +97,24 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '2.1',
+            numero: '3.1',
             titulo: 'Formas de terminación',
-            hash: 't_2_1',
+            hash: 't_3_1',
           },
           {
-            numero: '2.2',
+            numero: '3.2',
             titulo: 'Liquidación del contrato de trabajo',
-            hash: 't_2_2',
+            hash: 't_3_2',
           },
           {
-            numero: '2.3',
+            numero: '3.3',
             titulo: 'Indemnización',
-            hash: 't_2_3',
+            hash: 't_3_3',
           },
           {
-            numero: '2.4',
+            numero: '3.4',
             titulo: 'Programas de revinculación laboral',
-            hash: 't_2_4',
+            hash: 't_3_4',
           },
         ],
       },
@@ -167,13 +167,75 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Contrato de aprendizaje',
+      significado:
+        'contrato laboral especial y a término fijo, orientado a la formación del aprendiz, regulado por el artículo 81 del Código Sustantivo del Trabajo (CST), modificado por la Ley 2466 de 2025.',
+    },
+    {
+      termino: 'Contrato de trabajo',
+      significado:
+        'acuerdo mediante el cual una persona natural se obliga a prestar un servicio personal a otra persona natural o jurídica, bajo subordinación y a cambio de una remuneración.',
+    },
+    {
+      termino: 'Indemnización',
+      significado:
+        'compensación económica que el empleador reconoce al trabajador cuando termina el contrato unilateralmente y sin justa causa, conforme a los criterios legales aplicables.',
+    },
+    {
+      termino: 'Inducción',
+      significado:
+        'proceso que facilita la integración del trabajador a la organización mediante información sobre sus características, políticas y funciones del cargo.',
+    },
+    {
+      termino: 'Licencia remunerada',
+      significado:
+        'permiso que permite al trabajador ausentarse de sus labores sin descuento de su salario, en los casos previstos por la ley.',
+    },
+    {
+      termino: 'Liquidación',
+      significado:
+        'cálculo y pago de los salarios, prestaciones sociales, vacaciones y demás conceptos pendientes al finalizar el contrato de trabajo.',
+    },
+    {
+      termino: 'Monetización',
+      significado:
+        'pago que realiza al Servicio Nacional de Aprendizaje (SENA) la empresa obligada a contratar aprendices cuando no cumple total o parcialmente con dicha obligación.',
+    },
+    {
+      termino: 'Preaviso',
+      significado:
+        'comunicación anticipada de la intención de terminar o no prorrogar un contrato de trabajo, según los plazos y las condiciones establecidos en la normativa aplicable.',
+    },
+    {
+      termino: 'Término fijo',
+      significado:
+        'modalidad de contrato de trabajo que debe constar por escrito y cuya duración total, incluidas las prórrogas, no puede superar los cuatro años.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Congreso de la República de Colombia. (2002). <i>Ley 789 de 2002, por la cual se dictan normas para apoyar el empleo y ampliar la protección social y se modifican algunos artículos del Código Sustantivo de Trabajo</i>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2025). <i>Ley 2466 de 2025, por medio de la cual se modifica parcialmente normas laborales y se adopta una reforma laboral para el trabajo decente y digno en Colombia</i>.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=260676',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (s.f.). <i>Proceso de contratación</i>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1950). <i>Decreto 2663 de 1950, Código Sustantivo del Trabajo</i>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Secretaría del Senado. (s.f.). <i>Código Sustantivo del Trabajo</i>.',
       link: '',
     },
   ],
@@ -182,14 +244,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Líder del Ecosistema',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -197,9 +259,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Orlando Vidal Perdomo',
+          cargo: 'Experto temático',
+          centro: 'Regional Risaralda',
+        },
+        {
+          nombre: 'Didier Andrés Ospina Osorio',
+          cargo: 'Experto temático',
+          centro: 'Regional Risaralda',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -207,20 +279,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Andrés Felipe Herrera Roldán',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -230,16 +306,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: '',
+          nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
