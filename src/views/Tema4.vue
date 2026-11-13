@@ -20,7 +20,7 @@
                 p.mb-0 Para asistir a citas médicas de urgencia o a citas programadas con especialistas, previa presentación del certificado. Incluye los casos de diagnóstico y tratamiento de la endometriosis.
             .row(titulo="Grave calamidad doméstica")
               .col-12
-                p.mb-0 Por calamidad doméstica debidamente comprobada, que afecte a familiares hasta el tercer grado de consanguinidad, segundo de afinidad o primero civil
+                p.mb-0 Por calamidad doméstica debidamente comprobada, que afecte a familiares hasta el tercer grado de consanguinidad, segundo de afinidad o primero civil.
             .row(titulo="Citaciones escolares")
               .col-12
                 p.mb-0 Para atender, como acudiente, las citaciones del centro educativo cuando la asistencia sea obligatoria.
@@ -51,7 +51,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.text-white.mb-1 Ley 2466 de 2025
-                p.text-white.mb-0 Para profundizar en los cambios de la reforma laboral se recomienda consultar el texto completo de la ley: Para profundizar en los cambios de la reforma laboral se recomienda consultar el texto completo de la ley: Ley 2466 de 2025.
+                p.text-white.mb-0 Para profundizar en los cambios de la reforma laboral, se recomienda consultar el texto completo de la ley:
               .col-sm-auto
                 a.boton.color-acento-botones.texto-blanco(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=260676" target="_blank")
                   span.txt-c1 Ir al enlace

@@ -16,7 +16,7 @@
                     figure
                       img(src="@/assets/curso/temas/t1/img2.svg", alt="", style="width: 80px").m-auto
                   .col
-                    p.mb-0 El Código Sustantivo del Trabajo (CST) regula las relaciones laborales comprendidas en su ámbito de aplicación. Su artículo 22 define el contrato de trabajo como aquel por el cual una persona natural se obliga a prestar un servicio personal a otra persona natural o jurídica, bajo la continuada dependencia o subordinación de la segunda y mediante remuneración. Quien presta el servicio se denomina trabajador, quien lo recibe y remunera, empleador, y la remuneración, cualquiera que sea su forma, salario. El artículo 23 del CST señala tres elementos esenciales del contrato, que se presentan a continuación:
+                    p.mb-0 El Código Sustantivo del Trabajo (CST) regula las relaciones laborales comprendidas en su ámbito de aplicación. Su artículo 22 define el contrato de trabajo como aquel por el cual una persona natural se obliga a prestar un servicio personal a otra persona natural o jurídica, bajo la continuada dependencia o subordinación de la segunda y mediante remuneración. Quien presta el servicio se denomina trabajador; quien lo recibe y remunera, empleador; y la remuneración, cualquiera que sea su forma, salario. El artículo 23 del CST señala tres elementos esenciales del contrato, que se presentan a continuación:
               .col-lg-5
                 figure
                   img(src="@/assets/curso/temas/t1/img3.svg", alt="", style="width: 410px").m-auto
@@ -50,7 +50,7 @@
           figure
             img(src="@/assets/curso/temas/t1/img6.svg", alt="", style="width: 80px").m-auto
         .col
-          p.mb-0 Cuando se reúnen estos tres elementos existe contrato de trabajo, sin importar el nombre que las partes le den al acuerdo.
+          p.mb-0 Cuando se reúnen estos tres elementos, existe contrato de trabajo, sin importar el nombre que las partes le den al acuerdo.
       .row.bg-c4
         .col-12.px-5
           Separador
@@ -98,7 +98,7 @@
                     .col-8
                       img(src='@/assets/curso/temas/t1/img12.svg' alt='')
                   p.text-white.text-center #[b Período de prueba]
-                  p.text-white.mb-0 Tiempo inicial para valorar la relación laboral, cuando se pacte por escrito
+                  p.text-white.mb-0 Tiempo inicial para valorar la relación laboral, cuando se pacte por escrito.
                 .tarjeta.color-secundario.p-4
                   .row.justify-content-center.mb-3
                     .col-8
